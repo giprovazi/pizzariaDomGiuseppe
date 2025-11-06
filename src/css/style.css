@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 10px 12px rgba(12, 1, 1, 0.527);
+  position: relative;
+  z-index: 10;
+  padding: 10px 0;
+  gap: 15px;
+}
+
+header p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #c40c0c;
+    font-size: 50px;
+}
+
+.logo {
+    width: 10em;
+    margin: 1rem;
+}
+
+.botao-whatsapp {
+  background-image: url("/src/assets/bg.png");
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  height: 80vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+.btn-whatsapp {
+  background-color: #10a848;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  padding: 50px;
+  border-radius: 12px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 38px;
+  font-weight: 100;
+  transition: background-color 0.3s, transform 0.3s; 
+  margin: auto;
+  box-shadow: 4px 11px 8px rgba(0, 0, 0, 0.432);
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe57;
+  transform: scale(1.1);
+}
+
+.logo-whatsapp {
+    width: 2.5em;
+    padding-right: 12px;
+}
+
+@media (max-width: 768px) {
+    header p {
+        display: none;
+    }
+
+  .btn-whatsapp {
+    font-size: 26px;        
+    padding: 25px 30px;    
+    gap: 8px;              
+  }
+
+  .logo-whatsapp {
+    width: 1.8em;          
+    padding-right: 8px;
+  }
+
+  .btn-whatsapp:hover {
+    transform: none;
+  }
+
+
+}
