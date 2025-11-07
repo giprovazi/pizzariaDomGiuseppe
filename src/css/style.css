@@ -101,11 +101,11 @@ header p {
 /* --- CELULAR --- */
 @media (max-width: 480px) {
   header {
-    padding: 2px;
+    padding: 1px;
   }
 
   .logo {
-    width: 8em;
+    width: 6em;
   }
 
   .btn-whatsapp{
