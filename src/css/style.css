@@ -117,7 +117,7 @@ header p {
 /* --- CELULAR --- */
 @media (max-width: 580px) {
   header {
-    padding: 1px;
+    padding: 1.1px;
   }
 
   .logo {
